@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#20120b">
+<meta name="description" content="Traviator — adventures and outdoors. Discover your next journey.">
+<title>Traviator | Your Next Adventure Awaits</title>
+<link rel="preconnect" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body data-scroll-mode="smooth">
+<header class="header">
+  <a class="logo" href="#home"><img src="assets/traviator-logo.png" alt="Traviator emblem"><span>TRAVIATOR<small>ADVENTURES AND OUTDOORS</small></span></a>
+  <button class="menu-toggle glass" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  <nav class="nav" aria-label="Main navigation"><a class="active" href="#home">Home</a><a href="#destinations">Destinations</a><a href="#tours">Trips</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+  <div class="header-actions"><a class="search glass" href="#tours" aria-label="Search tours">⌕</a><a class="glass plan-link" href="#contact">Plan Your Trip <b>→</b></a></div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-bg"></div><div class="hero-overlay"></div>
+  <div class="hero-copy"><p class="eyebrow">EXPLORE · DISCOVER · EXPERIENCE</p><h1>Your Next<br><em>Adventure</em><br>Awaits</h1><p class="intro">Discover breathtaking destinations, create<br class="desktop"> unforgettable memories and travel beyond<br class="desktop"> the ordinary with Traviator.</p><a class="pill primary" href="#destinations">Explore Destinations <b>→</b></a>
+    <div class="hero-arrows"><button aria-label="Previous hero image" id="hero-prev">‹</button><button aria-label="Next hero image" id="hero-next">›</button></div>
+  </div>
+  <div class="handwritten">More<br>Than Just<br>a Trip<span></span></div>
+  <div class="hero-count"><span id="hero-number">01</span><i></i><span>03</span></div>
+  <div class="trust glass" id="about">
+    <div class="trust-item"><span class="trust-icon">♢</span><div><strong>Trusted &amp; Secure</strong><small>Your safety is our priority</small></div></div>
+    <div class="trust-item"><span class="trust-icon">◉</span><div><strong>Curated Experiences</strong><small>Handpicked by experts</small></div></div>
+    <div class="trust-item"><span class="trust-icon">♧</span><div><strong>24/7 Support</strong><small>We're here for you</small></div></div>
+    <div class="trust-item"><span class="trust-icon">♙</span><div><strong>Best Price Guarantee</strong><small>More value for your journey</small></div></div>
+  </div>
+</section>
+<section class="categories section" id="destinations">
+  <div class="category-intro reveal"><p class="eyebrow">EXPLORE BY CATEGORY</p><h2>Find Your<br><em>Perfect Escape</em></h2><p>From towering mountains to serene beaches,<br class="desktop"> choose your kind of adventure.</p><a class="pill primary" href="#tours">View All Destinations <b>→</b></a></div>
+  <div class="category-cards">
+    <a class="category-card reveal" href="#tours" style="--image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=85')"><span class="cat-icon">♧</span><div><h3>Mountains</h3><p>Go Higher</p><i>→</i></div></a>
+    <a class="category-card reveal" href="#tours" style="--image:url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=700&q=85')"><span class="cat-icon">♆</span><div><h3>Beaches</h3><p>Feel the Waves</p><i>→</i></div></a>
+    <a class="category-card reveal" href="#tours" style="--image:url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=700&q=85')"><span class="cat-icon">♣</span><div><h3>Forests</h3><p>Breathe Deeper</p><i>→</i></div></a>
+    <a class="category-card reveal" href="#tours" style="--image:url('https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=700&q=85')"><span class="cat-icon">♜</span><div><h3>Cities</h3><p>Explore Culture</p><i>→</i></div></a>
+  </div>
+</section>
+<section class="section tours-section" id="tours">
+  <div class="section-head reveal"><div><p class="eyebrow">FEATURED TOURS</p><h2>Upcoming <em>Tours</em></h2></div><a class="underlink" href="#contact">View All Tours <b>→</b></a></div>
+  <div class="tour-track" id="tour-track">
+    <article class="tour-card reveal"><div class="tour-image" style="--image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=85')"><label>POPULAR</label><button class="heart" aria-label="Save Himalayan Trails" aria-pressed="false">♡</button></div><div class="tour-info"><h3>Himalayan Trails</h3><p>⌖ Uttarakhand, India</p><div class="tour-bottom"><span>◷ 7 Days　 ·　 ⚒ Moderate</span><strong>₹12,999<small>per person</small></strong></div></div></article>
+    <article class="tour-card reveal"><div class="tour-image" style="--image:url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=85')"><label>BEST VALUE</label><button class="heart" aria-label="Save Andaman Getaway" aria-pressed="false">♡</button></div><div class="tour-info"><h3>Andaman Getaway</h3><p>⌖ Andaman &amp; Nicobar</p><div class="tour-bottom"><span>◷ 5 Days　 ·　 ♧ Easy</span><strong>₹18,499<small>per person</small></strong></div></div></article>
+    <article class="tour-card reveal"><div class="tour-image" style="--image:url('https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=800&q=85')"><label>NEW</label><button class="heart" aria-label="Save Rajasthan Expedition" aria-pressed="false">♡</button></div><div class="tour-info"><h3>Rajasthan Expedition</h3><p>⌖ Rajasthan, India</p><div class="tour-bottom"><span>◷ 6 Days　 ·　 ⚒ Moderate</span><strong>₹9,999<small>per person</small></strong></div></div></article>
+    <article class="tour-card reveal"><div class="tour-image" style="--image:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=85')"><label>LIMITED SPOTS</label><button class="heart" aria-label="Save Spiti Valley Adventure" aria-pressed="false">♡</button></div><div class="tour-info"><h3>Spiti Valley Adventure</h3><p>⌖ Himachal Pradesh</p><div class="tour-bottom"><span>◷ 8 Days　 ·　 ⚒ Challenging</span><strong>₹21,999<small>per person</small></strong></div></div></article>
+  </div>
+  <div class="track-footer"><span>‹</span><button class="track-prev" aria-label="Previous tours">‹</button><div class="track-line"><i></i></div><button class="track-next" aria-label="Next tours">›</button><span>›</span><span class="view-all">View All →</span></div>
+</section>
+<section class="section gallery-section" id="gallery">
+  <div class="section-head reveal"><div><p class="eyebrow">OUR JOURNEY IN PICTURES</p><h2>Travel <em>Gallery</em></h2><p class="subtitle">Moments that inspire. Places that stay forever.</p></div><a class="pill primary" href="#contact">View Full Gallery <b>→</b></a></div>
+  <div class="gallery-track">
+    <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1500&q=90" aria-label="Open mountain lake photo" style="--image:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=700&q=85')"></button>
+    <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1500&q=90" aria-label="Open sunset hiking photo" style="--image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85')"></button>
+    <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1500&q=90" aria-label="Open historic city photo" style="--image:url('https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=700&q=85')"></button>
+    <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1500&q=90" aria-label="Open mountain peaks photo" style="--image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=85')"></button>
+    <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1500&q=90" aria-label="Open forest photo" style="--image:url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=700&q=85')"></button>
+    <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1500&q=90" aria-label="Open coast photo" style="--image:url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=700&q=85')"></button>
+  </div><div class="gallery-progress"><i></i><span></span><span></span></div>
+</section>
+<section class="closing" id="contact">
+  <div class="closing-bg"></div><div class="closing-brand"><span class="compass">✥</span><strong>TRAVIATOR</strong><small>ADVENTURES AND OUTDOORS</small><em>Your Next Chapter<br>Starts Here</em></div>
+  <div class="closing-main"><h2>Ready for Your Next Adventure?</h2><p>Let's turn your travel dreams into reality. Plan your perfect trip<br> with Traviator today.</p><a class="pill primary" href="mailto:hello@traviator.example?subject=Plan%20my%20trip">Plan Your Trip <b>→</b></a></div>
+  <div class="stats"><div><b>100+</b><span>Destinations</span></div><div><b>50k+</b><span>Happy Travelers</span></div><div><b>4.8/5</b><span>Customer Rating</span></div></div>
+</section>
+</main>
+<footer class="footer"><a class="footer-logo" href="#home"><img src="assets/traviator-logo.png" alt=""><span><b>TRAVIATOR</b><small>ADVENTURES AND OUTDOORS</small></span></a><nav><a href="#home">Home</a><a href="#destinations">Destinations</a><a href="#tours">Trips</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav><div class="social"><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="YouTube">▶</a><a href="#contact" aria-label="X">𝕏</a><a href="#contact" aria-label="Facebook">f</a></div><small class="copyright">© 2026 Traviator. All rights reserved.</small></footer>
+<div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Gallery image"><button aria-label="Close image">×</button><img alt="Travel gallery enlarged image"></div><div class="toast" role="status" aria-live="polite"></div>
+</body></html>
